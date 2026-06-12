@@ -1,25 +1,25 @@
 class Leeway < Formula
   desc "Launch your coding agent through the LeewayLLM gateway - same model, less context, receipts for every request."
   homepage "https://leewayai.app"
-  version "1.0.2"
+  version "1.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.2/leeway-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "0fec8907e5cd2ebf3712ff9f32cd6032e24ba37ba610af1c00253546c6f4d179"
+      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.3/leeway-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "24f5211508a6f95ef48bbd1ffa2b10d44316c675950bc1ef03872d8d3a443723"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.2/leeway-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "5a02648b2534bb8b74538e47bd105a2d7048a27fbddfa0b573b34fef09891def"
+      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.3/leeway-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "97e96a32b8587a1e68754254fd228050cc596bb5586f4d62a15d8f5fee68f95a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.2/leeway-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "018ffecddbddda7b7951a465351984df397cb518882d68f8a6344076db1e65c4"
+      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.3/leeway-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "68f599cc67f1d5703f9c79ab8b130bda37d372140e5f40f4d0dd06d779e5a849"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.2/leeway-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5ff285fe7208328bd48d972cf2830cd4b00ff2b11cd7ccd91120dc2730397ac4"
+      url "https://github.com/Leeway-AI/leeway-cli/releases/download/v1.0.3/leeway-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "003a43c026adefbb8736e2dc70e56cee9edccdce3b47191c5e8c5e811934b80e"
     end
   end
   license "MIT"
